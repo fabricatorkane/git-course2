@@ -1,5 +1,6 @@
 const firstName = "Naum"
 const lastName='Tarnog'
+var friend='Ya'
 //name='Mar'
 
 console.log('Имя человека: ' + firstName + ', а фамилия: ' + lastName)
@@ -10,3 +11,6 @@ console.log('Имя человека: ' + firstName + ', а фамилия: ' + 
 const currentYear=2021
 const birthYear=1993
 const age = currentYear - birthYear
+
+hiJack = (friend == "Jack") ? "Hi, Jack!" : "Hi"+ ', ' + friend;
+console.log(hiJack);
