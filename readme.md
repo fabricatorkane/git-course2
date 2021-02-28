@@ -1,3 +1,3 @@
-# Git and Github course
+# Learning project
 
-Crash course
+Some JS, HTML, CSS

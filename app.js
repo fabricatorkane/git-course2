@@ -14,3 +14,8 @@ const age = currentYear - birthYear
 
 hiJack = (friend == "Jack") ? "Hi, Jack!" : "Hi"+ ', ' + friend;
 console.log(hiJack);
+
+//учим циклы
+for (let i = 1; i <= 5; i = i + 1) {
+    console.log("i = " + i);
+  };
