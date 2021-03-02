@@ -1,0 +1,16 @@
+<!DOCTYPE html> <!-- тут смотрим, как не надо делать формы, здесь можно внедрить xss-->
+<html>
+<head>
+<title>Привет</title>
+</head>
+<body>
+hello
+<form onsubmit='document.write(this.t.value)'>
+<input type='text' id='t'>
+</form>
+hello2
+<script>
+document.write(unescape(document.location.href)); <!-- а здесь мы можем вставить например hello.html?<script>alert(1)</script> в ссылку-->
+</script>
+</body>
+</html>

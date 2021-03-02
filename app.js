@@ -32,3 +32,23 @@ for (let i = 1; i <= 5; i = i + 1) {
   let areYouSure = confirm("Уверен?");
   alert(`Тебе ${age_1} лет!`); // Тебе 100 лет! - выводятся данные
   document.write(` Тебе ${age_1} лет! Неудачник!`);
+ 
+  //метод
+  var person = {};                                 //Объявляем объект person
+  person.sayAge = function(n) {                    //Объявляем метод sayAge для объекта person
+  console.log("Person is " + n + " years old");  //Тело метода sayAge - вывод текста
+  };
+
+  person.sayAge(age_1);
+
+  var person = {
+      name : "Ivan",
+      age : 25,
+      hiredYear : 2017
+    }
+    
+    person.sayAll = function() {
+      for (var i in this) {
+        console.log(i + " is " + this[i]);
+      }
+    }
