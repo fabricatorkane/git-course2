@@ -51,4 +51,6 @@ for (let i = 1; i <= 5; i = i + 1) {
       for (var i in this) {
         console.log(i + " is " + this[i]);
       }
-    }
+    };
+    var cat = "Cat";
+    console.log(cat.length); 
