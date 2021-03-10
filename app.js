@@ -54,3 +54,17 @@ for (let i = 1; i <= 5; i = i + 1) {
     };
     var cat = "Cat";
     console.log(cat.length); 
+
+var cat = "Cat";
+console.log(cat.charAt(1));
+
+console.log(cat.charCodeAt(2));
+
+console.log(cat[1]);
+
+let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+if (year == 2015) {
+  alert( 'Вы правы!' );
+} else {
+  alert( 'Неть!' );
+};
