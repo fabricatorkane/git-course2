@@ -28,3 +28,11 @@ if(companyName=='ECMAScript')
         alert('Не знаете? ECMAScript!');
         alert('Стыдоба')
     }
+
+var a = "первая строка";
+var b = " вторая строка";
+var c = " третья строка"; 
+result = a.concat(b , c);
+
+var myString = "cat,dog,bird";
+var myArray = myString.split(",");
