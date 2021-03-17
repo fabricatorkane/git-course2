@@ -15,3 +15,6 @@ if (login=='Админ') {
   } else {
     alert( "Я вас не знаю" );
   }
+
+myString = new String(`Привет, ${login}!`);
+console.log(myString.valueOf());
