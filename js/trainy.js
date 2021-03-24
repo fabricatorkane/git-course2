@@ -22,3 +22,12 @@ console.log(aB.concat(bC).split('')); // разбили строки на мас
 console.log(aB.concat(bC).split('').reverse()); // отзеркалили элементы массива
 console.log(aB.concat(bC).split('').reverse().join('')); //объединили массивы в строку
 console.log(aB.concat(bC).split('').reverse().join('').concat('Иванов')); // добавили к массиву "Иванов"
+
+var myDate1 = new Date()  //текущая дата и текущее время
+var myDate2 = new Date("December 14, 1975 12:10:00") //Sun Dec 14 1975 12:10:00 GMT+0300 (RTZ 2 (зима))
+var myDate3 = new Date(1989, 6, 14)  //Fri Jul 14 1989 00:00:00 GMT+0400 (RTZ 2 (лето))
+var myDate4 = new Date(1998, 6, 14, 11, 20, 00) //Tue Jul 14 1998 11:20:00 GMT+0400 (RTZ 2 (лето)) 
+console.log(myDate1);
+console.log(myDate2);
+console.log(myDate3);
+console.log(myDate4);
